@@ -1,0 +1,59 @@
+.action:hover {
+    -fx-background-color: '#282923';
+}
+
+#action_star {
+    -fx-image: url("../icon/star_bm.png");
+ }
+
+#action_download {
+    -fx-image: url("../icon/download_bm.png");
+ }
+
+#action_screenshot {
+    -fx-image: url("../icon/screenshot_bm.png");
+ }
+
+#action_info {
+    -fx-image: url("../icon/info_bm.png");
+ }
+
+#action_solution {
+    -fx-image: url("../icon/lightbulb_bm.png");
+ }
+
+#action_note {
+    -fx-image: url("../icon/note_bm.png");
+ }
+
+#action_skip {
+    -fx-image: url("../icon/skip_bm.png");
+ }
+
+#action_previous {
+    -fx-image: url("../icon/previous_bm.png");
+ }
+
+#action_next {
+    -fx-image: url("../icon/next_bm.png");
+ }
+
+#action_sound {
+    -fx-image: url("../icon/sound_on_bm.png");
+ }
+
+#action_theme {
+    -fx-image: url("../icon/theme_bm.png");
+ }
+
+#action_black_white {
+    -fx-image: url("../icon/black_white_bm.png");
+ }
+
+#icon_rank {
+    -fx-image: url("../icon/rank_bm.png");
+ }
+
+#icon_clock {
+    -fx-image: url("../icon/clock_bm.png");
+ }

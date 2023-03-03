@@ -1,0 +1,54 @@
+#win_bg {
+    -fx-background-color: '#5F5F5F';
+}
+
+#clock {
+     -fx-text-fill: 'lightgray';
+}
+
+.div {
+    -fx-background-color: '#343D46';
+}
+
+.text_light {
+     -fx-text-fill: '#FFFFFF';
+}
+
+.text_dim {
+    -fx-text-fill: 'lightgray';
+}
+
+.text_accent {
+    -fx-text-fill: '#FFFFFF';
+    -fx-font-family: 'Quicksand SemiBold';
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: '#6E7073';
+}
+
+.table-row-cell {
+    -fx-text-background-color: 'lightgray';
+}
+
+.table-row-cell:odd:filled {
+    -fx-background-color: '#282923';
+}
+
+.table-row-cell:even:filled {
+    -fx-background-color: '#343D46';
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb {
+    -fx-background-color:  'gray';
+}
+
+.table-view:cell-selection .cell:selected {
+    -fx-background-color: lightgray;
+    -fx-text-fill: black;
+}

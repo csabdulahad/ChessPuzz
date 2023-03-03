@@ -1,0 +1,76 @@
+/*
+    load the fonts
+*/
+
+@font-face {
+    /* JetBrains Mono Medium */
+    src: url('../font/JetBrains_Mono/JetBrainsMono-Medium.ttf');
+}
+
+@font-face {
+    /* Quicksand Regular */
+    src: url('../font/Quicksand/Quicksand-Regular.ttf');
+ }
+
+@font-face {
+    /* Quicksand Bold */
+    src: url('../font/Quicksand/Quicksand-Bold.ttf');
+}
+
+@font-face {
+    /* Quicksand SemiBold */
+    src: url('../font/Quicksand/Quicksand-SemiBold.ttf');
+}
+
+@font-face {
+    /* Quicksand Light */
+    src: url('../font/Quicksand/Quicksand-Light.ttf');
+}
+
+.text_light, .text_dim {
+    -fx-font-family: 'Quicksand Medium';
+}
+
+#clock {
+    -fx-font-family: 'JetBrains Mono Medium';
+}
+
+.noheader .column-header-background {
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-column {
+  -fx-alignment: CENTER;
+  -fx-font-size: 14px;
+  -fx-font-family: 'JetBrains Mono Medium';
+}
+
+.table-view .table-cell {
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 1;
+    -fx-padding: 5;
+}

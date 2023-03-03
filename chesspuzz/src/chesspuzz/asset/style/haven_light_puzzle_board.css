@@ -1,0 +1,58 @@
+.action:hover {
+    -fx-background-color: '#F2F2F2';
+}
+#action_star {
+    -fx-image: url("../icon/star_hl.png");
+ }
+
+#action_download {
+    -fx-image: url("../icon/download_hl.png");
+ }
+
+#action_screenshot {
+    -fx-image: url("../icon/screenshot_hl.png");
+ }
+
+#action_info {
+    -fx-image: url("../icon/info_hl.png");
+ }
+
+#action_solution {
+    -fx-image: url("../icon/lightbulb_hl.png");
+ }
+
+#action_note {
+    -fx-image: url("../icon/note_hl.png");
+ }
+
+#action_skip {
+    -fx-image: url("../icon/skip_hl.png");
+ }
+
+#action_previous {
+    -fx-image: url("../icon/previous_hl.png");
+ }
+
+#action_next {
+    -fx-image: url("../icon/next_hl.png");
+ }
+
+#action_sound {
+    -fx-image: url("../icon/sound_on_hl.png");
+ }
+
+#action_theme {
+    -fx-image: url("../icon/theme_hl.png");
+ }
+
+#action_black_white {
+    -fx-image: url("../icon/black_white_hl.png");
+ }
+
+#icon_rank {
+    -fx-image: url("../icon/rank_hl.png");
+ }
+
+#icon_clock {
+    -fx-image: url("../icon/clock_hl.png");
+ }
