@@ -1,0 +1,31 @@
+#win_bg {
+    -fx-background-color: 'lightgray';
+}
+
+.div {
+    -fx-background-color: 'white';
+}
+
+.text_light {
+     -fx-text-fill: #000000;
+}
+
+.text_dim {
+    -fx-text-fill: '#232425';
+}
+
+
+.table-view:cell-selection .cell:selected {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: '#B8B9B9';
+}
