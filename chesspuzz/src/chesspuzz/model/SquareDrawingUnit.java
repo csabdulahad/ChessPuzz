@@ -6,7 +6,7 @@ import javafx.scene.image.Image;
 
 public class SquareDrawingUnit implements DrawingUnit {
 
-    private int animSpeed = 6;
+    private int animSpeed = 10;
 
     // variable that controls how often we should update the animation properties
     private float counter = 0.0f;
@@ -41,7 +41,8 @@ public class SquareDrawingUnit implements DrawingUnit {
 
         // calculate the forward motion along X-axis
         forwardMotionX = destX > previousX;
-        stepX = (Math.max(destX, previousX) - Math.min(destX, previousX)) / (float) animSpeed;
+//        stepX = (Math.max(destX, previousX) - Math.min(destX, previousX)) / (float) animSpeed;
+        stepX = Math.abs(destX - previousX) / (float) animSpeed;
 
         // calculate the forward motion along Y-axis
         forwardMotionY = destY > previousY;
@@ -59,7 +60,7 @@ public class SquareDrawingUnit implements DrawingUnit {
         counter += delta;
 
         // we are updating animation after each nano-second is passed
-        if (counter < 1.0f) return;
+        if (counter < 6f) return;
 
         // update the x and y based on motion forward or backward
         x += forwardMotionX ? stepX : -stepX;
@@ -81,7 +82,7 @@ public class SquareDrawingUnit implements DrawingUnit {
             y = destY;
         }
 
-        // check whether the piece is at dest square from both x and y axis
+        // check whether the piece is at dest square from both x and y-axis
         if (Double.compare(x, destX) == 0 && Double.compare(y, destY) == 0) isAtDest = true;
 
         // reset the counter

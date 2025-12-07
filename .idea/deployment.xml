@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="A2.Net">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/chesspuzz" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="JCW1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/chesspuzz" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="JCW2">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/chesspuzz" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="LB Root">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/chesspuzz" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="LB Staging">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/chesspuzz" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
